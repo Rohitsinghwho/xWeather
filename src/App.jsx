@@ -46,7 +46,7 @@ const App = () => {
         <input type='text' value={city} onChange={(e)=>setCity(e.target.value)} placeholder='Enter City name'/>
         <button type='submit' >Search</button>
       </form>
-      {loading&&<p>Loading data…</p>}
+      {loading&&<p>Loading data...</p>}
      {weather!==null&&
      (<div className='weather-cards'>
         <div className='weather-card'>

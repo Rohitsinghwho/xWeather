@@ -43,7 +43,7 @@ const App = () => {
     <div className='Main'>  
       <form onSubmit={handleSearch}>
         <div></div>
-        <input type='text' value={city} onChange={(e)=>setCity(e.target.value)}/>
+        <input type='text' value={city} onChange={(e)=>setCity(e.target.value)} placeholder='Enter City name'/>
         <button type='submit' >Search</button>
       </form>
       {loading&&<p>loading...</p>}
